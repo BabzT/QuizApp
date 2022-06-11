@@ -27,8 +27,8 @@ body{
     line-height: 1.5;
     display: flex;
     justify-content: center; 
-     align-items: center;
-     transform: translateY(10%);
+    align-items: center;
+     
 }
 
 .quiz-box{
@@ -38,6 +38,7 @@ body{
     padding: 10px 20px 20px 20px;
     border: 2px solid var(--color-primary);
     border-radius: 15px;
+    margin-top: 50px;
 }
 
 .startbox{
@@ -186,5 +187,13 @@ body{
 
     #quiz h1{
         font-size: 20px;
+    }
+
+    #question{
+        font-size: 14px;
+    }
+    
+    .btn{
+        font-size: 14px;
     }
 }

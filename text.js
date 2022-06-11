@@ -99,20 +99,66 @@ function showScores(){
 
 let questions = [
     new Question(
-        "How Old are you?",["12", "45", "100", "20"], "20"
+        "The most common clinical manisfestation of Hodgkin's disease is?",["Enlarged liver", "Painless and enlarged lymph nodes", "Enlarged spleen", "Itching"], "Painless and enlarged lymph nodes"
     ),
     new Question(
-        "How Old are you?",["12", "45", "100", "20"], "20"
+        "The first post operative care of a client with repair of aneurysm is to assess?",["Alteration in renal perfusion", "Electrolyte imbalance", "Ineffective Cough", "Wound Infection"], "Ineffective Cough"
     ),
     new Question(
-        "How Old are you?",["12", "45", "100", "20"], "20"
+        "The following are risk factors for lower back pain EXCEPT?",["Weight loss", "Weight gain", "Repetitive lifting of heavy objects", "Poor posture"], "Weight loss"
     ),
     new Question(
-        "How Old are you?",["12", "45", "100", "20"], "20"
+        "Laboratory screening for prostatic cancer is known as?",["Postrate specific antigen", "Blood Urea Nitrogen", "Creatinine kinase", "Aspartate amino-transferase"], "Postrate specific antigen"
     ),
     new Question(
-        "How Old are you?",["12", "45", "100", "20"], "20"
+        "A client has left-sided heart failure and the nurse observes that he has orthopnoea. What is the immediate short-term goal of the treatment?",["Check the Urinary output for kidney perfusion", "Continue heparin therapy for peripheral oedema", "Assess stressors in the client life", "Decrease Venous return to the heart"], "Decrease Venous return to the heart"
+    ),
+    new Question(
+        "The most appropriate nursing intervention for determining fliud balance in a client with end stage renal failure is?",["Weigh patient daily", "Monitor Urine specific gravity", "Monitor intake and output", "Record vital signs daily"], "Monitor intake and output"
+    ),
+    new Question(
+        "The following are the main part of the somatic cells EXCEPT?",["Cytoplasmic membrane", "Cytoplasm", "Nucleus", "Ribosome"], "Ribosome"
+    ),
+    new Question(
+        "The part of the bone that forms the long axis of the body is referred to as?",["Epiphysis", "Diaphysis", "Membranes", "Epiphyseal plate"], "Epiphyseal plate"
+    ),
+    new Question(
+        "The most inferior or the brain stem is known as ?",["Cerebellum", "Pons", "Cerebrum", "Medulla Oblongata"], "Pons"
+    ),
+    new Question(
+        "The major cause of coronary artery disease is?",["Angina pectoris", "Arteriosclerosis", "Hypertension", "Cerebrovascular accident"], "Cerebrovascular accident"
+    ),
+    new Question(
+        "The entire group of people under study by the researcher is known as?",["Sample", "Population", "Control group", "Experimental group"], "Sample"
+    ),
+    new Question(
+        "Which level of needs in Maslow's hierarchy include love,friends,intimacy and family?",["Esteem", "Psychological", "Safety and security", "Belonging"], "Belonging"
+    ),
+    new Question(
+        "Lumbar puncture is a procedure in which the cerebrospinal fluid is withdrawn by means of inserting a hollow needle into the?",["Dura mater", "Arachnoid mater", "Subdura space", "Subarachnoid space"], "Subarachnoid space"
+    ),
+    new Question(
+        "Classification of research according to time element include the following EXCEPT?",["Exoerimental research", "Descriptive research", "Historical research", "Empirical research"], "Descriptive research"
+    ),
+    new Question(
+        "The following are bones of the middle ear EXCEPT?",["Malleus", "Stapes", "Incus", "Vestibulocochlear"], "Vestibulocochlear"
+    ),
+    new Question(
+        "The following are Nurses Responsibilities in emergency situations EXCEPT?",["Check for respiration", "Improve Circulation", "Maintain patent airways", "Cover client with neat clothings"], "Cover client with neat clothings"
+    ),
+    new Question(
+        "When applying bandage, the tip of the bandage is called?",["The head", "The tail", "The starting point", "The shaft"], "The tail"
+    ),
+    new Question(
+        "Burns which involve only the outermost layer of the skin are called?",["Superficial burns", "Partial thickness burns", "Full thickness burns", "Deep burns"], "Superficial burns"
+    ),
+    new Question(
+        "The following are components of Primary Health Care EXCEPT?",["Provision of portable water", "Treatment of complicated disease", "Family planning", "Environmental Sanitation"], "Treatment of complicated disease"
+    ),
+    new Question(
+        "Another name for Vitamin B1 is?",["Cyanocobalamin", "Carotene", "Riboflavin", "Thiamine"], "Thiamine"
     )
+
 ];
 
 let quiz = new Quiz(questions);
@@ -123,7 +169,7 @@ displayQuestion();
 
 //ADD COUNTDOWN
 
-let time = 10;
+let time = 5;
 let quizTimeInMinutes = time * 60 * 60;
 let quizTime = quizTimeInMinutes / 60;
 
