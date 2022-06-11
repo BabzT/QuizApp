@@ -178,22 +178,9 @@ body{
     #quiz h1{
         font-size: 28px;
     }
-}
 
-@media screen and (max-width:280px) {
-    .quiz-box{
-        width: 90%;
-    }
-
-    #quiz h1{
-        font-size: 20px;
-    }
-
-    #question{
-        font-size: 14px;
-    }
-    
-    .btn{
-        font-size: 14px;
+    .btn:hover{
+        background-color: var(--color-grey);
+        color: var(--black);
     }
 }

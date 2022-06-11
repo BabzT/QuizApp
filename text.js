@@ -70,6 +70,7 @@ function guess(id, guess){
     button.onclick = () => {
         quiz.guess(guess);
         displayQuestion();
+        document.querySelector(".btn").classList.remove("active")
     }
 }
 
