@@ -143,6 +143,7 @@ body{
     background-color: var(--color-sec);
 }
 
+
 #score{
     color: var(--black);
     text-align: center;
@@ -169,6 +170,7 @@ body{
 .quiz-repeat a:hover{
     background-color: var(--color-primary);
 }
+
 
 @media screen and (max-width:960px) {
     .quiz-box{
